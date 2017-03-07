@@ -1,0 +1,82 @@
+.select-div span.error,.datepicker-div span.error {
+    margin-left: 10px;
+}
+option[value=''] {
+    color: green!important;
+}
+.register-select {
+    background-image: url('../../../res/assets/img/select-arrow.png')!important;
+    background-repeat: no-repeat;
+    background-position: 97% 5px;
+    background-size: 3%;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px!important;
+    font-size: 14px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 26px!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding-top: 0;
+    padding-left: 11px!important;
+}
+.nav-tabs>li>a .tab-icon {
+    font-size: 14px;
+}
+.form-group.error label {
+    opacity: 1!important;
+}
+@media(max-width:670px) {
+    .nav.nav-tabs.nav-stack-sm li span, .nav.nav-tabs.nav-stack-sm.nav-tabs-linetriangle>li.active>a:after, .nav.nav-tabs.nav-stack-sm.nav-tabs-linetriangle>li.active>a:before {
+        display: none
+    }
+    .brand.inline img {
+/*      /   height: 45px */
+    }
+}
+.register-select.error {
+    width: 268px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding-top: 0;
+    padding-left: 11px!important;
+    color: #626262;
+}
+.select2-container {
+    background: rgb(243, 243, 243);
+}
+.page-container .page-content-wrapper .content:not(.special) {
+    padding-top: 70px;
+}
+#gender-error {
+    margin-left: 10px!important;
+}
+ul.nav.nav-tabs {
+    background: #FAFAFA;
+}
+.brand img {
+    width: 60px;
+    height: 60px;
+}.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background: #fff;
+}
+.select2-results__option {
+    text-align: center;
+}
